@@ -39,6 +39,13 @@ class BookController extends Controller
 
         return $book;
     }
+
+    public function getBookByName($bookName)
+    {
+        $book = DB::table('books as b')->join('publishers as p', 'p.id', '=', 'b.publisher_id')->select('title', 'name', 'price', 'place', 'category', 'production_year')->where('b.title', $bookName)->get();
+
+        return $book;
+    }
     public function edit($id)
     {
 

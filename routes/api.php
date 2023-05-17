@@ -34,10 +34,10 @@ Route::post('/books/{book}', [BookController::class, 'update']);
 
 
 //publishers //
-Route::post('/books', [PublisherController::class, 'addPublisher']);
-Route::delete('/books/{book}', [PublisherController::class, 'destroy']);
-Route::get('/books/{book}/edit', [PublisherController::class, 'edit']);
-Route::post('/books/{book}', [PublisherController::class, 'update']);
+Route::post('/publishers', [PublisherController::class, 'addPublisher']);
+Route::delete('/publishers/{publisher}', [PublisherController::class, 'destroy']);
+Route::get('/publishers/{publisher}/edit', [PublisherController::class, 'edit']);
+Route::post('/publishers/{publisher}', [PublisherController::class, 'update']);
 
 
 
@@ -45,6 +45,8 @@ Route::post('/books/{book}', [PublisherController::class, 'update']);
 Route::get('/books', [BookController::class, 'getBooks']);
 Route::get('/favorites/{favorite}', [BookController::class, 'getFavoriteBooks']);
 Route::get('/books/{book}', [BookController::class, 'getBookById']);
+Route::get('/books/{book}', [BookController::class, 'getBookByName']);
+
 Route::get('/categories', [BookController::class, 'getCategories']);
 Route::get('/categories/{category}', [BookController::class, 'getCategoryById']);
 Route::get('/investigators', [BookController::class, 'getInvestigators']);
