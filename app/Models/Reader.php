@@ -22,3 +22,6 @@ class Reader extends Model
         return $this->belongsToMany(Book::class,'favorites','book_id','reader_id');
     }
 }
+
+
+

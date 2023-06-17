@@ -3,6 +3,7 @@
 use App\Http\Controllers\BookController;
 use App\Http\Controllers\PublisherController;
 use App\Http\Controllers\ReaderController;
+use App\Http\Controllers\UserController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -21,9 +22,32 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-// Reader //
-Route::post("/register", [ReaderController::class, 'register']);
-Route::post("/login", [ReaderController::class, 'login']);
+
+
+//user
+Route::post("/register",[UserController::class,'register']);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// // Reader //
+// Route::post("/register", [ReaderController::class, 'register']);
+// Route::post("/login", [ReaderController::class, 'login']);
 
 
 // Books //
