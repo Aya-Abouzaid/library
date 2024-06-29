@@ -32,7 +32,7 @@ This project is a Library Management BackEnd System developed to manage the oper
 
 ## Technologies Used
 
-- **Laravel php framework**
+- **Laravel php framework** (for backend)
 - **MySQL**
 - **blade template** 
 - **Android, Java** (for frontend)
