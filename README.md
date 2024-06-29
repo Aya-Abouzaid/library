@@ -22,6 +22,8 @@ This project is a Library Management BackEnd System developed to manage the oper
 - [License](#license)
 - [Contact](#contact)
 
+
+
 ## Features
 
 - **Book Management**: Add, update, delete, and search for books.
@@ -30,12 +32,29 @@ This project is a Library Management BackEnd System developed to manage the oper
 - **Search Functionality**: Search for books by title, author, or ISBN.
 - **User Authentication**: Secure login and role-based access control.
 
+
 ## Technologies Used
 
 - **Laravel php framework** (for backend)
 - **MySQL**
 - **blade template** 
 - **Android, Java** (for frontend)
+
+
+## Usage
+
+1. **Accessing the Application**:
+Open your web browser and navigate to http://localhost:8000 (or your specified local server URL).
+Use the provided login credentials to access the application.
+
+2. **Managing Data:**:
+Use the application interface to manage backend data such as users, settings, and database records.
+Ensure proper data validation and security measures are implemented for data manipulation operations.
+
+3. **Customizing Features:**:
+Modify the application functionality by editing PHP scripts, updating configuration files (config.php, .env), or integrating additional libraries via Composer.
+
+
 
 ## Installation
 
