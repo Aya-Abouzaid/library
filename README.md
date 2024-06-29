@@ -8,88 +8,41 @@
 </p>
 
 
-#Library Management System
+# Library Management System
+
 This project is a Library Management System developed to manage the operations of a library efficiently. The system is built using Java SE & Java EE with Spring Framework, providing functionalities to manage books, members, and library transactions.
 
-Table of Contents
-Features
-Technologies Used
-Installation
-Usage
-Contributing
-License
-Contact
-Features
-Book Management: Add, update, delete, and search for books.
-Member Management: Register new members, update member information, and delete members.
-Transaction Management: Issue books, return books, and track due dates.
-Search Functionality: Search for books by title, author, or ISBN.
-User Authentication: Secure login and role-based access control.
-Technologies Used
-Java SE
-Java EE
-Spring Framework
-Spring Boot
-Spring Data JPA
-MySQL (or any other relational database)
-Thymeleaf (for templating)
-HTML/CSS/JavaScript (for frontend)
-Installation
-Clone the repository:
+## Table of Contents
 
-bash
-Copy code
-git clone https://github.com/Aya-Abouzaid/library.git
-Navigate to the project directory:
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-bash
-Copy code
-cd library
-Set up the database:
+## Features
 
-Create a new database in MySQL (or your preferred database).
-Update the application.properties file with your database configurations.
-Build the project:
+- **Book Management**: Add, update, delete, and search for books.
+- **Member Management**: Register new members, update member information, and delete members.
+- **Transaction Management**: Issue books, return books, and track due dates.
+- **Search Functionality**: Search for books by title, author, or ISBN.
+- **User Authentication**: Secure login and role-based access control.
 
-bash
-Copy code
-mvn clean install
-Run the application:
+## Technologies Used
 
-bash
-Copy code
-mvn spring-boot:run
-Usage
-Access the application:
-Open your web browser and go to http://localhost:8080.
+- **Java SE**
+- **Java EE**
+- **Spring Framework**
+- **Spring Boot**
+- **Spring Data JPA**
+- **MySQL** (or any other relational database)
+- **Thymeleaf** (for templating)
+- **HTML/CSS/JavaScript** (for frontend)
 
-Login:
-Use the default credentials to log in (you may change these later).
+## Installation
 
-Manage Library Operations:
-Use the web interface to manage books, members, and transactions.
-
-Contributing
-Contributions are welcome! Please follow these steps to contribute:
-
-Fork the repository.
-Create a new branch:
-bash
-Copy code
-git checkout -b feature-branch
-Make your changes.
-Commit your changes:
-bash
-Copy code
-git commit -m "Add feature"
-Push to the branch:
-bash
-Copy code
-git push origin feature-branch
-Create a pull request.
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-Contact
-For any inquiries or feedback, please contact Aya Abouzaid.
-
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/Aya-Abouzaid/library.git
