@@ -10,7 +10,7 @@
 
 # Library Management System
 
-This project is a Library Management System developed to manage the operations of a library efficiently. The system is built using Java SE & Java EE with Spring Framework, providing functionalities to manage books, members, and library transactions.
+This project is a Library Management BackEnd System developed to manage the operations of a library efficiently. The system is built using php with Laravel Framework, providing functionalities to manage books, members, and library transactions.
 
 ## Table of Contents
 
@@ -32,14 +32,10 @@ This project is a Library Management System developed to manage the operations o
 
 ## Technologies Used
 
-- **Java SE**
-- **Java EE**
-- **Spring Framework**
-- **Spring Boot**
-- **Spring Data JPA**
-- **MySQL** (or any other relational database)
-- **Thymeleaf** (for templating)
-- **HTML/CSS/JavaScript** (for frontend)
+- **Laravel php framework**
+- **MySQL**
+- **blade template** 
+- **Android, Java** (for frontend)
 
 ## Installation
 
