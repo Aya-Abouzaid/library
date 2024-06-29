@@ -7,60 +7,89 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Library Management System
+This project is a Library Management System developed to manage the operations of a library efficiently. The system is built using Java SE & Java EE with Spring Framework, providing functionalities to manage books, members, and library transactions.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+Table of Contents
+Features
+Technologies Used
+Installation
+Usage
+Contributing
+License
+Contact
+Features
+Book Management: Add, update, delete, and search for books.
+Member Management: Register new members, update member information, and delete members.
+Transaction Management: Issue books, return books, and track due dates.
+Search Functionality: Search for books by title, author, or ISBN.
+User Authentication: Secure login and role-based access control.
+Technologies Used
+Java SE
+Java EE
+Spring Framework
+Spring Boot
+Spring Data JPA
+MySQL (or any other relational database)
+Thymeleaf (for templating)
+HTML/CSS/JavaScript (for frontend)
+Installation
+Clone the repository:
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+bash
+Copy code
+git clone https://github.com/Aya-Abouzaid/library.git
+Navigate to the project directory:
 
-## Learning Laravel
+bash
+Copy code
+cd library
+Set up the database:
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Create a new database in MySQL (or your preferred database).
+Update the application.properties file with your database configurations.
+Build the project:
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+bash
+Copy code
+mvn clean install
+Run the application:
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+bash
+Copy code
+mvn spring-boot:run
+Usage
+Access the application:
+Open your web browser and go to http://localhost:8080.
 
-## Laravel Sponsors
+Login:
+Use the default credentials to log in (you may change these later).
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+Manage Library Operations:
+Use the web interface to manage books, members, and transactions.
 
-### Premium Partners
+Contributing
+Contributions are welcome! Please follow these steps to contribute:
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+Fork the repository.
+Create a new branch:
+bash
+Copy code
+git checkout -b feature-branch
+Make your changes.
+Commit your changes:
+bash
+Copy code
+git commit -m "Add feature"
+Push to the branch:
+bash
+Copy code
+git push origin feature-branch
+Create a pull request.
+License
+This project is licensed under the MIT License. See the LICENSE file for details.
 
-## Contributing
+Contact
+For any inquiries or feedback, please contact Aya Abouzaid.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
