@@ -62,6 +62,3 @@ This project is a Library Management BackEnd System developed to manage the oper
 6. **Start the development server:**:
    ```bash
    php -S localhost:8000 -t public
-
-
-   
