@@ -42,3 +42,26 @@ This project is a Library Management BackEnd System developed to manage the oper
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/Aya-Abouzaid/library.git
+
+2. **Navigate to the project directory:**:
+   ```bash
+   cd library
+
+3. **Install dependencies using Composer:**:
+   ```bash
+   composer install
+
+4. **Set up environment variables:**:
+ - Rename .env.example to .env.
+ - Update .env file with your database credentials and other configuration settings.
+
+5. **Import the database schema:**:
+ - Create a new MySQL database for the application.
+ - Import the database schema from database/schema.sql into your newly created database.
+
+6. **Start the development server:**:
+   ```bash
+   php -S localhost:8000 -t public
+
+
+   
