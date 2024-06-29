@@ -18,8 +18,6 @@ This project is a Library Management BackEnd System developed to manage the oper
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 - [Contact](#contact)
 
 
