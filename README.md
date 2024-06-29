@@ -8,7 +8,7 @@
 </p>
 
 
-Library Management System
+#Library Management System
 This project is a Library Management System developed to manage the operations of a library efficiently. The system is built using Java SE & Java EE with Spring Framework, providing functionalities to manage books, members, and library transactions.
 
 Table of Contents
